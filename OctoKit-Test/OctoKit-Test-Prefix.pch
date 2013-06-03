@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'OctoKit-Test' target in the 'OctoKit-Test' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+	#import <SystemConfiguration/SystemConfiguration.h>
+#endif

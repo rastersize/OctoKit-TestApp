@@ -1,0 +1,6 @@
+[submodule "configs"]
+	path = configs
+	url = https://github.com/jspahrsummers/xcconfigs.git
+[submodule "OctoKit"]
+	path = OctoKit
+	url = https://github.com/rastersize/octokit.objc.git

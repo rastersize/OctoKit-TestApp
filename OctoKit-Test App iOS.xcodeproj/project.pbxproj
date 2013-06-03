@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CC3BF5E175D079200F077FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3BF5D175D079200F077FA /* UIKit.framework */; };
+		9CC3BF60175D079200F077FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3BF5F175D079200F077FA /* Foundation.framework */; };
+		9CC3BF62175D079200F077FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3BF61175D079200F077FA /* CoreGraphics.framework */; };
+		9CC3BF68175D079200F077FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3BF66175D079200F077FA /* InfoPlist.strings */; };
+		9CC3BF6A175D079200F077FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3BF69175D079200F077FA /* main.m */; };
+		9CC3BF6E175D079200F077FA /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3BF6D175D079200F077FA /* CDAppDelegate.m */; };
+		9CC3BF70175D079200F077FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3BF6F175D079200F077FA /* Default.png */; };
+		9CC3BF72175D079200F077FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3BF71175D079200F077FA /* Default@2x.png */; };
+		9CC3BF74175D079200F077FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3BF73175D079200F077FA /* Default-568h@2x.png */; };
+		9CC3BF77175D079200F077FA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3BF75175D079200F077FA /* MainStoryboard.storyboard */; };
+		9CC3BF7A175D079200F077FA /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3BF79175D079200F077FA /* CDViewController.m */; };
+		9CC3BFB7175D090400F077FA /* libOctoKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3BF8C175D087C00F077FA /* libOctoKit.a */; };
+		9CC3BFBA175D09E500F077FA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3BFB9175D09E400F077FA /* MobileCoreServices.framework */; };
+		9CC3BFBC175D09EB00F077FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3BFBB175D09EB00F077FA /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CC3BF87175D087C00F077FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0871EA8169E2EFC00016ACA;
+			remoteInfo = "OctoKit Mac";
+		};
+		9CC3BF89175D087C00F077FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0871EC0169E2EFC00016ACA;
+			remoteInfo = "OctoKit Mac Tests";
+		};
+		9CC3BF8B175D087C00F077FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0871FE4169E309900016ACA;
+			remoteInfo = "OctoKit iOS";
+		};
+		9CC3BF8D175D087C00F077FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0871FF3169E309A00016ACA;
+			remoteInfo = "OctoKit iOS Tests";
+		};
+		9CC3BFB5175D08F900F077FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0871FE3169E309900016ACA;
+			remoteInfo = "OctoKit iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CC3BF5A175D079200F077FA /* OctoKit-Test App iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OctoKit-Test App iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC3BF5D175D079200F077FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CC3BF5F175D079200F077FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CC3BF61175D079200F077FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CC3BF65175D079200F077FA /* OctoKit-Test App iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctoKit-Test App iOS-Info.plist"; sourceTree = "<group>"; };
+		9CC3BF67175D079200F077FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CC3BF69175D079200F077FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC3BF6B175D079200F077FA /* OctoKit-Test App iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctoKit-Test App iOS-Prefix.pch"; sourceTree = "<group>"; };
+		9CC3BF6C175D079200F077FA /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		9CC3BF6D175D079200F077FA /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		9CC3BF6F175D079200F077FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9CC3BF71175D079200F077FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9CC3BF73175D079200F077FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CC3BF76175D079200F077FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9CC3BF78175D079200F077FA /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
+		9CC3BF79175D079200F077FA /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OctoKit.xcodeproj; path = OctoKit/OctoKit.xcodeproj; sourceTree = "<group>"; };
+		9CC3BF91175D088300F077FA /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		9CC3BF93175D088300F077FA /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		9CC3BF94175D088300F077FA /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		9CC3BF95175D088300F077FA /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		9CC3BF96175D088300F077FA /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		9CC3BF98175D088300F077FA /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		9CC3BF99175D088300F077FA /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		9CC3BF9B175D088300F077FA /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		9CC3BF9C175D088300F077FA /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		9CC3BF9D175D088300F077FA /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		9CC3BF9F175D088300F077FA /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		9CC3BFA0175D088300F077FA /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		9CC3BFA1175D088300F077FA /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		9CC3BFA2175D088300F077FA /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		9CC3BFA3175D088300F077FA /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		9CC3BFA4175D088300F077FA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9CC3BFB9175D09E400F077FA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9CC3BFBB175D09EB00F077FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC3BF57175D079200F077FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC3BFBC175D09EB00F077FA /* SystemConfiguration.framework in Frameworks */,
+				9CC3BFBA175D09E500F077FA /* MobileCoreServices.framework in Frameworks */,
+				9CC3BFB7175D090400F077FA /* libOctoKit.a in Frameworks */,
+				9CC3BF5E175D079200F077FA /* UIKit.framework in Frameworks */,
+				9CC3BF60175D079200F077FA /* Foundation.framework in Frameworks */,
+				9CC3BF62175D079200F077FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC3BF51175D079200F077FA = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF63175D079200F077FA /* OctoKit-Test App iOS */,
+				9CC3BF5C175D079200F077FA /* Frameworks */,
+				9CC3BF8F175D088300F077FA /* configs */,
+				9CC3BF5B175D079200F077FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC3BF5B175D079200F077FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF5A175D079200F077FA /* OctoKit-Test App iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC3BF5C175D079200F077FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */,
+				9CC3BF5D175D079200F077FA /* UIKit.framework */,
+				9CC3BF5F175D079200F077FA /* Foundation.framework */,
+				9CC3BF61175D079200F077FA /* CoreGraphics.framework */,
+				9CC3BFBB175D09EB00F077FA /* SystemConfiguration.framework */,
+				9CC3BFB9175D09E400F077FA /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CC3BF63175D079200F077FA /* OctoKit-Test App iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF6C175D079200F077FA /* CDAppDelegate.h */,
+				9CC3BF6D175D079200F077FA /* CDAppDelegate.m */,
+				9CC3BF75175D079200F077FA /* MainStoryboard.storyboard */,
+				9CC3BF78175D079200F077FA /* CDViewController.h */,
+				9CC3BF79175D079200F077FA /* CDViewController.m */,
+				9CC3BF64175D079200F077FA /* Supporting Files */,
+			);
+			path = "OctoKit-Test App iOS";
+			sourceTree = "<group>";
+		};
+		9CC3BF64175D079200F077FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF65175D079200F077FA /* OctoKit-Test App iOS-Info.plist */,
+				9CC3BF66175D079200F077FA /* InfoPlist.strings */,
+				9CC3BF69175D079200F077FA /* main.m */,
+				9CC3BF6B175D079200F077FA /* OctoKit-Test App iOS-Prefix.pch */,
+				9CC3BF6F175D079200F077FA /* Default.png */,
+				9CC3BF71175D079200F077FA /* Default@2x.png */,
+				9CC3BF73175D079200F077FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC3BF81175D087B00F077FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF88175D087C00F077FA /* OctoKit.framework */,
+				9CC3BF8A175D087C00F077FA /* OctoKit Mac Tests.octest */,
+				9CC3BF8C175D087C00F077FA /* libOctoKit.a */,
+				9CC3BF8E175D087C00F077FA /* OctoKit iOS Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC3BF8F175D088300F077FA /* configs */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF90175D088300F077FA /* Base */,
+				9CC3BF9A175D088300F077FA /* iOS */,
+				9CC3BF9E175D088300F077FA /* Mac OS X */,
+				9CC3BFA4175D088300F077FA /* README.md */,
+			);
+			path = configs;
+			sourceTree = "<group>";
+		};
+		9CC3BF90175D088300F077FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF91175D088300F077FA /* Common.xcconfig */,
+				9CC3BF92175D088300F077FA /* Configurations */,
+				9CC3BF97175D088300F077FA /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9CC3BF92175D088300F077FA /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF93175D088300F077FA /* Debug.xcconfig */,
+				9CC3BF94175D088300F077FA /* Profile.xcconfig */,
+				9CC3BF95175D088300F077FA /* Release.xcconfig */,
+				9CC3BF96175D088300F077FA /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		9CC3BF97175D088300F077FA /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF98175D088300F077FA /* Application.xcconfig */,
+				9CC3BF99175D088300F077FA /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		9CC3BF9A175D088300F077FA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF9B175D088300F077FA /* iOS-Application.xcconfig */,
+				9CC3BF9C175D088300F077FA /* iOS-Base.xcconfig */,
+				9CC3BF9D175D088300F077FA /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9CC3BF9E175D088300F077FA /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3BF9F175D088300F077FA /* Mac-Application.xcconfig */,
+				9CC3BFA0175D088300F077FA /* Mac-Base.xcconfig */,
+				9CC3BFA1175D088300F077FA /* Mac-DynamicLibrary.xcconfig */,
+				9CC3BFA2175D088300F077FA /* Mac-Framework.xcconfig */,
+				9CC3BFA3175D088300F077FA /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC3BF59175D079200F077FA /* OctoKit-Test App iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC3BF7D175D079200F077FA /* Build configuration list for PBXNativeTarget "OctoKit-Test App iOS" */;
+			buildPhases = (
+				9CC3BF56175D079200F077FA /* Sources */,
+				9CC3BF57175D079200F077FA /* Frameworks */,
+				9CC3BF58175D079200F077FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC3BFB6175D08F900F077FA /* PBXTargetDependency */,
+			);
+			name = "OctoKit-Test App iOS";
+			productName = "OctoKit-Test App iOS";
+			productReference = 9CC3BF5A175D079200F077FA /* OctoKit-Test App iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC3BF52175D079200F077FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aron Cedercrantz";
+			};
+			buildConfigurationList = 9CC3BF55175D079200F077FA /* Build configuration list for PBXProject "OctoKit-Test App iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CC3BF51175D079200F077FA;
+			productRefGroup = 9CC3BF5B175D079200F077FA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9CC3BF81175D087B00F077FA /* Products */;
+					ProjectRef = 9CC3BF80175D087B00F077FA /* OctoKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9CC3BF59175D079200F077FA /* OctoKit-Test App iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9CC3BF88175D087C00F077FA /* OctoKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OctoKit.framework;
+			remoteRef = 9CC3BF87175D087C00F077FA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9CC3BF8A175D087C00F077FA /* OctoKit Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OctoKit Mac Tests.octest";
+			remoteRef = 9CC3BF89175D087C00F077FA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9CC3BF8C175D087C00F077FA /* libOctoKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOctoKit.a;
+			remoteRef = 9CC3BF8B175D087C00F077FA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9CC3BF8E175D087C00F077FA /* OctoKit iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OctoKit iOS Tests.octest";
+			remoteRef = 9CC3BF8D175D087C00F077FA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC3BF58175D079200F077FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC3BF68175D079200F077FA /* InfoPlist.strings in Resources */,
+				9CC3BF70175D079200F077FA /* Default.png in Resources */,
+				9CC3BF72175D079200F077FA /* Default@2x.png in Resources */,
+				9CC3BF74175D079200F077FA /* Default-568h@2x.png in Resources */,
+				9CC3BF77175D079200F077FA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC3BF56175D079200F077FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC3BF6A175D079200F077FA /* main.m in Sources */,
+				9CC3BF6E175D079200F077FA /* CDAppDelegate.m in Sources */,
+				9CC3BF7A175D079200F077FA /* CDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CC3BFB6175D08F900F077FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OctoKit iOS";
+			targetProxy = 9CC3BFB5175D08F900F077FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CC3BF66175D079200F077FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC3BF67175D079200F077FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CC3BF75175D079200F077FA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC3BF76175D079200F077FA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CC3BF7B175D079200F077FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3BF93175D088300F077FA /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CC3BF7C175D079200F077FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3BF95175D088300F077FA /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC3BF7E175D079200F077FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3BF9B175D088300F077FA /* iOS-Application.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctoKit-Test App iOS/OctoKit-Test App iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OctoKit-Test App iOS/OctoKit-Test App iOS-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CC3BF7F175D079200F077FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3BF9B175D088300F077FA /* iOS-Application.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctoKit-Test App iOS/OctoKit-Test App iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OctoKit-Test App iOS/OctoKit-Test App iOS-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC3BF55175D079200F077FA /* Build configuration list for PBXProject "OctoKit-Test App iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC3BF7B175D079200F077FA /* Debug */,
+				9CC3BF7C175D079200F077FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC3BF7D175D079200F077FA /* Build configuration list for PBXNativeTarget "OctoKit-Test App iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC3BF7E175D079200F077FA /* Debug */,
+				9CC3BF7F175D079200F077FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC3BF52175D079200F077FA /* Project object */;
+}
